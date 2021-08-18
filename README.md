@@ -24,6 +24,6 @@ Example
 
 Comandos:
 
-container docker: docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+container docker: docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres | 
 new migration: yarn typeorm migration:create -n CreateProducts | 
 run migration: yarn typeorm migration:run
