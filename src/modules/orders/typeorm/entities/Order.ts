@@ -8,7 +8,7 @@ import {
     OneToMany
 } from 'typeorm';
 
-import Customer from '@modules/customer/typeorm/entities/Customer';
+import Customer from '../../../customer/typeorm/entities/Customer';
 import OrdersProducts from './OrdersProducts';
 
 @Entity('orders')
